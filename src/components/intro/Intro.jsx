@@ -24,9 +24,9 @@ export default function Contact() {
           <h3><span>Full Stack Web Developer</span></h3>
 
           <div className='socials'>
-            <a className="icons" href="https://github.com/imbickydutta" target="_blank"> <GitHubIcon fontSize="large" /> </a>
+            <a className="icons" href="https://github.com/imbickydutta" target="_blank" rel="noreferrer"> <GitHubIcon fontSize="large" /> </a>
 
-            <a className="icons" href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/" target="_blank"> <LinkedInIcon fontSize="large" /> </a>
+            <a className="icons" href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/" target="_blank" rel="noreferrer"> <LinkedInIcon fontSize="large" /> </a>
           </div>
         </div>
         <a className='a' href="#projects">
