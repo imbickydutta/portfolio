@@ -42,7 +42,6 @@ export default function Contact() {
                         <li>👉  Used Mateiral UI buttons and Cards</li>
                     </ul>} imgpath="./assets/restaurant.png" />
                 </div>
-
             </div>
 
             <a className='arrowDown' href="#skills">
