@@ -8,12 +8,16 @@ import Typography from '@mui/material/Typography';
 export default function MediaCard({ project_name, desc, imgpath, github, demo, techstack, features }) {
   return (
     <Card sx={{ maxWidth: 600 }}>
-      <CardMedia
-        component="img"
-        height="300"
-        image={imgpath}
-        alt={project_name}
-      />
+
+      <div className="imgMed" >
+        <CardMedia
+          component="img"
+          height="300"
+          image={imgpath}
+          alt={project_name}
+        />
+      </div>
+
       <CardContent>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>

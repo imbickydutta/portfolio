@@ -1,5 +1,5 @@
 .projects {
-  background-color: white;
+  background-color: #fafad2;
 
   .arrowDown {
     display: flex;
@@ -32,6 +32,11 @@
 
     .card {
       padding: 15px;
+
+      .imgMed {
+        // border: 1px dashed #15023a;
+        padding: 5px;
+      }
     }
   }
 }
